@@ -104,6 +104,7 @@ In other words, the following is stripped off:
 <!-- don't print JS and controls -->
 <xsl:template match="script|noscript"/>
 <xsl:template match="div[starts-with(@id,'replyto_')]"/>
+<xsl:template match="div[@class='commentSub']"/>
 <xsl:template match="li[@class='hide']"/>
 
 
